@@ -84,5 +84,7 @@ def valve(moist,cmd,light):
     elif(cmd == True):
         irrig()
         p.ChangeDutyCycle(7.5)
+    elif(moist >= 80.0):
+        p.ChangeDutyCycle(2.5)
     else:
         p.ChangeDutyCycle(2.5)

@@ -22,4 +22,4 @@ def irrig():
     lcd.move_to(0,0)
     lcd.putstr("Irrigating now..")
     
-welcome()
+#welcome()
